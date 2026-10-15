@@ -4,7 +4,7 @@ This repository provides the curated LendingClub input, the UCI credit card inpu
 
 ## Obtain the inputs
 
-Download [inputs-v1.zip from the tagged release](https://github.com/Stork343/llm-ranking-risk-data/releases/download/v1.0.0/inputs-v1.zip) or restore its contents with Python and requests:
+Download [inputs-v1.zip from the tagged release](https://github.com/Stork343/llm-ranking-risk-data/releases/download/v1.0.0/inputs-v1.zip) or restore its contents with Python and a configured GitHub CLI:
 
 ```bash
 python fetch_data.py --output-root ../analysis
